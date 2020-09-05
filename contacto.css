@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("Imagenes/full-bloom.png");
+}
+
+nav{
+  width: 100%;
+  height: auto;
+}
+
+.container_img{
+  background-image: url("Imagenes/Playa.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.row_form{
+  display: flex;
+}
+
+.form{
+  max-width: 50%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 2px dashed black;
+  border-radius: 6px;
+  background-color: #ede7f6;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px;
+}
+
+.mb{
+  margin-bottom: 10px;
+  width: auto;
+  padding: 0;
+}
+
+p{
+  padding:10px;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-flat:hover{
+  background-color: #7b1fa2;
+  color: whitesmoke;
+  border-radius: 8px;
+}
+
+header{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+} 
+
+footer{
+  background-color: darkgray;
+}
+
+img:hover{
+  transform: scale(1.1);
+  transition-duration: 500ms;
+  opacity: 0.7;
+  transform: rotate(360deg);
+}
+
+.social-row{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.btn-social{
+  display:scroll;
+  position:fixed;
+  bottom:20px;
+  right: 0;
+}
+
+.btn-social-gmail{
+  display:scroll;
+  position:fixed;
+  bottom:20px;
+  right: 0;
+  bottom: 80px;
+}
+
+.redes{
+  width: 60px;
+  height: 60px;
+}
