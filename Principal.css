@@ -77,6 +77,18 @@ h2{
   margin-right: auto;
 }
 
+.imgconstructor{
+  background-image: url("Imagenes/under_construction.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: whitesmoke;
+}
+
+.textConstructor{
+  padding: 150px;
+}
+
 img:hover{
   transform: scale(1.1);
   transition-duration: 500ms;
